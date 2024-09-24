@@ -1,0 +1,108 @@
+version: 2
+sources:
+- name: sap_erp
+  database: '{{ target.database }}'
+  schema: poc_schema
+  tables:
+  - name: stg_iflot
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_ausp
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_crhd
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_qpct
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_qpgt
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_jest
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_adrc
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_iflotx
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_jsto
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_tj02t
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_tj30t
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_qmel
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_qmfe
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_qmih
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_qmur
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_iloa
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
+  - name: stg_qmsm
+    description: An external table that sources SAP delta file data from the SAPN
+      datalake.
+    tags:
+    - delta
+    - csv
