@@ -2,7 +2,7 @@ version: 2
 sources:
 - name: sap_erp
   database: '{{ target.database }}'
-  schema: poc_schema
+  schema: poc
   tables:
   - name: stg_iflot
     description: An external table that sources SAP delta file data from the SAPN
