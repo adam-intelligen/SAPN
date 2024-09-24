@@ -4,7 +4,7 @@
 /********************************************************************************************************
 vw_network_asset_gis_group_attributes
 *********************************************************************************************************/
-
+/*
 WITH gis_group_attributes AS 
 (
     SELECT
@@ -21,3 +21,4 @@ SELECT
     ,gatt.network_asset_gis_group_code
     ,gatt.network_asset_gis_group_description
 FROM gis_group_attributes gatt
+*/
